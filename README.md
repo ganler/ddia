@@ -1,4 +1,4 @@
-# 设计数据密集型应用 - 中文翻译 
+# 设计数据密集型应用 - 中文翻译 [+阅读笔记]
 
 - 作者： [Martin Kleppmann](https://martin.kleppmann.com)
 - 原书名称：[《Designing Data-Intensive Application》](http://shop.oreilly.com/product/0636920032175.do)
@@ -6,8 +6,21 @@
 - Gitbook地址：[ddia-cn](https://www.gitbook.com/book/vonng/ddia-cn)
 - 使用[Typora](https://www.typora.io)或Gitbook以获取最佳阅读体验。
 
+## 如何添加笔记
 
+本repo将在原文的基础上用以下方式增加笔记。
 
+```html
+<details><summary><b>Notes</b> <i>[click to expand]</i></summary>
+<div>
+Detailed Notes...
+</div>
+</details>
+```
+
+---
+
+源README。
 
 ## 译序
 
