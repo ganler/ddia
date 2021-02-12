@@ -20,9 +20,7 @@ Detailed Notes...
 </details>
 ```
 
----
-
-源README。
+> Note Logging: Chapter 1, 2, 10;
 
 ## 译序
 
