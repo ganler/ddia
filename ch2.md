@@ -65,6 +65,13 @@
 
 像ActiveRecord和Hibernate这样的 **对象关系映射（ORM object-relational mapping）** 框架可以减少这个转换层所需的样板代码的数量，但是它们不能完全隐藏这两个模型之间的差异。
 
+<details><summary><b>Notes</b> <i>[click to expand]</i></summary>
+<div>
+O/R Mapping: 把一个表看做一个class；把一个object看做一个行；把attribute/member看做列；<br>
+Ref: http://www.ruanyifeng.com/blog/2019/02/orm-tutorial.html
+</div>
+</details>
+
 ![](img/fig2-1.png)
 
 **图2-1 使用关系型模式来表示领英简介**
@@ -219,13 +226,11 @@ CODASYL中的查询是通过利用遍历记录列和跟随访问路径表在数�
 尽管手动选择访问路径够能最有效地利用20世纪70年代非常有限的硬件功能（如磁带驱动器，其搜索速度非常慢），但这使得查询和更新数据库的代码变得复杂不灵活。无论是分层还是网络模型，如果你没有所需数据的路径，就会陷入困境。你可以改变访问路径，但是必须浏览大量手写数据库查询代码，并重写来处理新的访问路径。更改应用程序的数据模型是很难的。
 
 
-
 <details><summary><b>Notes::网络模型</b> <i>[click to expand]</i></summary>
 <div>
 Kind like 寻路。
 </div>
 </details>
-
 
 
 #### 关系模型
